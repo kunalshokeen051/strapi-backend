@@ -11,7 +11,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "stripeId": {
+    "paymentId": {
       "type": "text"
     },
     "products": {
