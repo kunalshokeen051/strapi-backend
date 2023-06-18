@@ -65,8 +65,15 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "phone": {
-      "type": "integer"
+    "profile_slug": {
+      "type": "uid",
+      "targetField": "username"
+    },
+    "avatar_url": {
+      "type": "string",
+      "required": true,
+      "regex": "[(http(s)?):\\/\\/(www\\.)?a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)",
+      "default": "https://multiavatar.com/sfosodhfisdf21"
     }
   }
 }
